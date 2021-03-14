@@ -1,0 +1,17 @@
+1. В блоке со слайдером хотел провернуть следующее:
+
+<div class:"container main_single">
+	<div class:"btn_left>
+	<botton class:"botton_left><i class="fas fa-angle-left"></i></botton>
+	</div>
+	<div class:"btn_left>
+	<botton class:"botton_left><i class="fas fa-angle-left"></i></botton>
+	</div>
+</div>
+
+хотел применить flex контайнер но почему то не сработало
+display flex;
+justify-content:space-between;
+
+в общем и целом, подскажите что почитать или посмотреть на тему позиционирования элементов, а то шибко хромают знания. заранее спасибо.
+		

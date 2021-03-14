@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap");
+$main_font: "Comfortaa";
+
+body {
+    font-family: $main_font;
+}
+
+.main_title {
+    background: url(img/baner1.png) no-repeat center;
+    height: 790px;
+}
+
+.container_1 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding-top: 40px;
+}
+
+.logo {
+    height: inherit;
+    margin-left: 64px;
+}
+
+.navbar {
+    padding-top: 14px;
+    margin-right: 64px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Home {
+    font-family: $main_font;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    padding-right: 53px;
+}
+
+.catalog {
+    font-family: $main_font;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    padding-right: 53px;
+}
+
+.main_text {
+    padding-top: 310px;
+    display: flex;
+    justify-content: center;
+}
+
+.group_text {
+    text-align: center;
+}
+
+.text_1 {
+    text-align: center;
+    font-family: $main_font;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.text_2 {
+    padding-top: 27px;
+    text-align: center;
+    font-family: $main_font;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.checkbox_area {
+    height: 143px;
+    background-color: #f5f6f7;
+}
+
+.container_2 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.check_change {
+    align-items: center;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox_input {
+    padding-top: px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.see {
+    width: 204px;
+    height: 52px;
+    background-color: #aa9b77;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.men_wrapper {
+    height: 585px;
+}
+
+.men_head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #424242;
+}
+
+hr {
+    width: 850px;
+    height: 2px;
+    background-color: #cccccc;
+    border: none;
+}
+
+.wrapper_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin-top: 100px;
+    width: 320px;
+    height: 378px;
+    background-color: #f5f6f7;
+    border-radius: 3px;
+}
+
+.product_size {
+    padding-top: 30px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #424242;
+}
+
+#sortBy {
+    box-sizing: border-box;
+    margin-left: 25px;
+    border: none;
+    width: 20px;
+    height: 8px;
+}
+
+.img {
+    padding-top: 50px;
+    padding-left: 85px;
+}
+
+.product_name_size {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.product_name {
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #aa9b77;
+}
+
+.product_price {
+    padding-right: 25px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #424242;
+}
+
+.img_1 {
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.img_2 {
+    padding-top: 30px;
+    padding-left: 85px;
+}
+
+.women_wrapper {
+    height: 602px;
+}
+
+.women_head {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #424242;
+}
+
+.img_3 {
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.img_4 {
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+.product_name_size_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.img_5 {
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.about_us_header {
+    height: 402px;
+    background-color: #aa9b77;
+}
+
+.about_us_border {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about_header {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #837659;
+}
+
+.about_text {
+    padding-top: 83px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.footer {
+    height: 120px;
+    background-color: #424242;
+}
